@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+ /* Imports a font*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} /* changes the font/text style*/
+
+
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: grid;
+  background: linear-gradient(grey, black);
+  place-items: center;
+  color: #f7f7ff;
+} /* Changes the background and the display to grid*/
+
+.lower-hotbar {
+ 
+  color: white;
+  background: linear-gradient(	#6459aa,#554a99);
+  border-top-left-radius: 1pc;
+  border-bottom-left-radius: 1pc;
+  border-bottom-right-radius: 1pc;
+  border-top-right-radius: 1pc;
+  width: 35vh;
+} /* This is the lower hot bar also a button that just takes you back to the home page*/
+
+div.a { font-size: x-large; } /* Changing div.a font size*/
+
+.img-align {
+  background-color: rgba(0, 0, 0, 0);
+  max-width: 2%;
+} /* Background changing, Looks like its invis don't know why I have it add if it is.*/
+
+.glitch {
+  text-align: center;
+  align-content: right;
+  position: relative;
+  text-transform: capitalize;
+  font-size: 6rem;
+  letter-spacing: 1rem;
+} /* This kinda just moves everything around such as text and correxts the spelling to all cas*/
+
+.glitch::before { /* Adding the animation for the gitch effect*/
+  text-align: center;
+  align-content: right;
+  left: 4px;
+  text-shadow: -3px 0 #ff2e00;
+  animation: glitch-anim 4s infinite linear alternate-reverse;
+}
+
+.glitch::after { /* still ading it*/
+  text-align: center;
+  align-content: right;
+  left: -4px;
+  text-shadow: 3px 0 #3454d1;
+  animation: glitch-anim-2 4s infinite linear alternate-reverse;
+}
+
+[left] {
+left: 50px;
+}
+[right] {
+right: 50px;
+}
+/* Keyframes for the animation for the glitch effect on the 404 letters you can view it live at https://dreamin.studio/404.html*/
+@keyframes glitch-anim {
+  0% {
+    clip-path: inset(38% 0 46% 0);
+  }
+  5% {
+    clip-path: inset(13% 0 88% 0);
+  }
+  10% {
+    clip-path: inset(89% 0 3% 0);
+  }
+  15% {
+    clip-path: inset(9% 0 16% 0);
+  }
+  20% {
+    clip-path: inset(33% 0 23% 0);
+  }
+  25% {
+    clip-path: inset(80% 0 21% 0);
+  }
+  30% {
+    clip-path: inset(21% 0 59% 0);
+  }
+  35% {
+    clip-path: inset(96% 0 3% 0);
+  }
+  40% {
+    clip-path: inset(9% 0 74% 0);
+  }
+  45% {
+    clip-path: inset(28% 0 67% 0);
+  }
+  50% {
+    clip-path: inset(93% 0 2% 0);
+  }
+  55% {
+    clip-path: inset(54% 0 25% 0);
+  }
+  60% {
+    clip-path: inset(45% 0 24% 0);
+  }
+  65% {
+    clip-path: inset(32% 0 42% 0);
+  }
+  70% {
+    clip-path: inset(99% 0 1% 0);
+  }
+  75% {
+    clip-path: inset(92% 0 1% 0);
+  }
+  80% {
+    clip-path: inset(16% 0 12% 0);
+  }
+  85% {
+    clip-path: inset(67% 0 32% 0);
+  }
+  90% {
+    clip-path: inset(3% 0 98% 0);
+  }
+  95% {
+    clip-path: inset(61% 0 33% 0);
+  }
+  100% {
+    clip-path: inset(49% 0 15% 0);
+  }
+}
+
+@keyframes glitch-anim-2 {
+  0% {
+    clip-path: inset(95% 0 5% 0);
+  }
+  5% {
+    clip-path: inset(4% 0 10% 0);
+  }
+  10% {
+    clip-path: inset(97% 0 4% 0);
+  }
+  15% {
+    clip-path: inset(38% 0 1% 0);
+  }
+  20% {
+    clip-path: inset(1% 0 42% 0);
+  }
+  25% {
+    clip-path: inset(63% 0 4% 0);
+  }
+  30% {
+    clip-path: inset(64% 0 2% 0);
+  }
+  35% {
+    clip-path: inset(83% 0 3% 0);
+  }
+  40% {
+    clip-path: inset(37% 0 15% 0);
+  }
+  45% {
+    clip-path: inset(12% 0 65% 0);
+  }
+  50% {
+    clip-path: inset(75% 0 19% 0);
+  }
+  55% {
+    clip-path: inset(77% 0 12% 0);
+  }
+  60% {
+    clip-path: inset(13% 0 35% 0);
+  }
+  65% {
+    clip-path: inset(38% 0 7% 0);
+  }
+  70% {
+    clip-path: inset(51% 0 21% 0);
+  }
+  75% {
+    clip-path: inset(42% 0 55% 0);
+  }
+  80% {
+    clip-path: inset(89% 0 2% 0);
+  }
+  85% {
+    clip-path: inset(32% 0 5% 0);
+  }
+  90% {
+    clip-path: inset(37% 0 10% 0);
+  }
+  95% {
+    clip-path: inset(56% 0 32% 0);
+  }
+  100% {
+    clip-path: inset(36% 0 25% 0);
+  }
+}
+
+
+
+
+a:link {
+  color: white;
+} /*Changes the color of the <a href=""></a> link*/
+
+
+a:visited {
+  color: white;
+} /*Changes the color to websites you have visited*/
+
+a:hover { /*Changes the color of the a href when you hover your mouse over it*/
+  color: lightgray;
+}
+
+a:active { 
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+class {
+}
+
+.watermark {
+  text-align: center;
+  text-decoration: ;
+  font-size: 10px;
+  font-family: monospace;
+  letter-spacing: 1.5px;
+  animation: colorRotate 10s linear 0s infinite;
+} /*This is where I put my name on the top of the page because the client said I could have credits*/
+/*Keyframes for the rotating colors sense its rainbow*/
+@keyframes colorRotate {
+  from {
+    color: #0000ff;
+  }
+  10% {
+    color: #0051ff;
+  }
+  20% {
+    color: #00ffff;
+  }
+  35% {
+    color: #15ff00;
+  }
+  50% {
+    color: #c8ff00;
+  }
+  65% {
+    color: #fc8f00;
+  }
+  80% {
+    color: #ff0000;
+  }
+  90% {
+    color: #ff00d4;
+  }
+  100% {
+    color: #8400ff;
+  }
+}
+
+/*End of the code I guess, Well I hope I get accepted this time, If you view my live preview just know its not done being built yet!*/
